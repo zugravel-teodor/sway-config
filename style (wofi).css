@@ -1,0 +1,28 @@
+window {
+    background-color: #000000;
+    border: none;
+}
+
+#entry {
+    background-color: #000000;
+    color: #bbbbbb;
+}
+
+#entry:selected {
+    background-color: #111111;
+    color: #ffffff;
+}
+
+#input {
+    background-color: #000000;
+    color: #bbbbbb;
+    border: none;
+}
+
+#scroll {
+    background-color: #000000;
+}
+
+#text {
+    color: #bbbbbb;
+}
