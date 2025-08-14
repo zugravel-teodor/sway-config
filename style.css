@@ -1,0 +1,32 @@
+* {
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #bbbbbb;
+}
+
+window#waybar {
+    background-color: #000000;
+    border: none;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    color: #888888;
+    background: transparent;
+}
+
+#workspaces button.focused {
+    color: #ffffff;
+    background: transparent;
+}
+
+#clock, #pulseaudio, #battery {
+    padding: 0 8px;
+}
+
+#battery.warning {
+    color: #ff8800;
+}
+#battery.critical {
+    color: #ff4444;
+}
