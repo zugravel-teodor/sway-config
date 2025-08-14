@@ -1,0 +1,26 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 30,
+  "modules-left": ["clock"],  // Moved clock to the left
+  "modules-center": [],
+  "modules-right": ["pulseaudio", "battery"],
+
+  "clock": {
+    "format": "{:%H:%M %a %d %b}",
+    "tooltip": false
+  },
+
+  "pulseaudio": {
+    "format": "[VOL] {volume}%",
+    "format-muted": "[VOL] Muted",
+    "tooltip": false
+  },
+
+  "battery": {
+    "format": "[BAT] {capacity}%",
+    "format-charging": "[CHR] {capacity}%",
+    "tooltip": false
+  }
+}
+
